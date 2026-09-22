@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffde7;
+    overflow-x:hidden;
+}
+
+
+.retangulo {
+    width: 100%;
+    min-height: 600px;
+    background-color: #692d9e;
+    display: flex;
+    align-items: center;            
+    justify-content: space-around;   
+    padding: 20px 50px;
+}
+
+
+.logo img {
+    max-width: none;
+    width:500px;
+    height: auto;
+}
+
+.logo{
+    flex-shrink:0;
+}
+
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    text-align: left;
+}
+
+h1 {
+    color: white;
+    font-size: 120px;
+    font-family: "Big Shoulders Display", sans-serif;
+    line-height: 0.95;
+    margin: 0;
+}
+
+.verdinho {
+    color: #d0ff95;
+}
+
+
+h3 {
+    color: white;
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px; 
+}
+
+.linha-2{
+    position:relative;
+    left:120px;
+}
+
+.linha-3{
+    position:relative;
+    right:200px;
+}
+
+.linha-verde{
+    width:100%;
+    height:70px;
+    background-color:#d0ff95;
+    
+}
+
+.saiba-mais{
+    position:relative;
+    font-size:45px;
+    color:#692d9e;
+    top:10px;
+    left:690px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.setinha{
+    display:flex;
+    justify-content:center;
+    padding-top:20px;
+}
+
+.setinha img{
+    
+    width:50px;
+    height:auto;
+    display:block;
+}
+
+.sobre{
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    padding:60px;
+    gap:40px;
+}
+
+.pilares{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.pilares h2{
+    color:#692d9e;
+    font-family:"Big Shoulders Display", sans-serif;
+    font-size: 80px;
+    margin-bottom:10px;
+}
+
+.pilar-card{
+    width:400px;
+    min-height: 80px;
+    background-color:#d0ff95;
+    border-radius:20px;
+    padding:10px 15px;
+    display:flex;
+    align-items:center;
+    font-size:20px;
+    color:#692d9e;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow:2px 2px 6px rgba(0,0,0,0.5);
+}
+
+
+
+.texto {
+    max-width:550px;
+    text-align:center;
+
+}
+
+.texto h1{
+    color:#692d9e;
+    font-family:"Big Shoulders Display", sans-serif;
+    font-size:110px;
+    margin-bottom:40px;
+
+}
+
+.texto p{
+    color:#692d9e;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    line-height:1.6;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.2);}
+
+
+.escurinho{
+    color:#96c958 !important;
+    font-weight:bold;
+    display:inline;
+}
+
+.rodape{
+    background-color:#ffffff;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.rodape p{
+    color:#692d9e;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:10px;
+}
